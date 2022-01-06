@@ -1,6 +1,6 @@
 from bcolors import bcolors
 
-positivo = f"""{bcolors.BOLD}{bcolors.OKGREEN}
+positive = f"""{bcolors.BOLD}{bcolors.OKGREEN}
    _____             __       _                         _ _   _            
   / ____|           /_/      (_)                       (_) | (_)           
  | |     ___ _ __   __ _ _ __ _  ___    _ __   ___  ___ _| |_ ___   _____  
@@ -21,8 +21,12 @@ neutro = f"""{bcolors.BOLD}{bcolors.OKBLUE}
   \_____\___|_| |_|\__,_|_|  |_|\___/  |_| |_|\___|\__,_|\__|_|  \___/ 
 {bcolors.ENDC}{bcolors.ENDC}
 """
+news = f"""{bcolors.HEADER}
+################################## * NEWS BITCOIN.COM * ##################################                  
+{bcolors.ENDC}
+"""
 
-negativo = f"""{bcolors.BOLD}{bcolors.FAIL}
+negative = f"""{bcolors.BOLD}{bcolors.FAIL}
    _____             __       _                                _   _            
   / ____|           /_/      (_)                              | | (_)           
  | |     ___ _ __   __ _ _ __ _  ___    _ __   ___  __ _  __ _| |_ ___   _____  
